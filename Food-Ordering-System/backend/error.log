@@ -1,0 +1,26 @@
+[dotenv@17.3.1] injecting env (3) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+Server running on port 5000
+MongoParseError: options usenewurlparser, useunifiedtopology are not supported
+    at parseOptions (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\mongodb\lib\connection_string.js:272:15)
+    at new MongoClient (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\mongodb\lib\mongo_client.js:67:61)
+    at NativeConnection.createClient (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:334:14)
+    at NativeConnection.openUri (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\mongoose\lib\connection.js:1075:34)
+    at Mongoose.connect (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\mongoose\lib\mongoose.js:471:15)
+    at Object.<anonymous> (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\server.js:12:10)
+    at Module._compile (node:internal/modules/cjs/loader:1562:14)
+    at Object..js (node:internal/modules/cjs/loader:1699:10)
+    at Module.load (node:internal/modules/cjs/loader:1313:32)
+    at Function._load (node:internal/modules/cjs/loader:1123:12) {
+  errorLabelSet: Set(0) {}
+}
+SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\body-parser\lib\types\json.js:72:19)
+    at C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\body-parser\lib\read.js:162:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at invokeCallback (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\sathy\OneDrive\Desktop\MERN-Pro\Food-Ordering-System\backend\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:524:28)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
